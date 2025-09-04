@@ -120,10 +120,10 @@ class MainActivity : AppCompatActivity() {
             flashBoxes (boxes + specialBox)
         }
         generateButton4.setOnClickListener {
-            //Generate 5 numeros unicos entre 1 - 35
+            //Generate 5 numeros unicos entre 1 - 39
             val mainNumbers3 = mutableSetOf<Int>()
             while (mainNumbers3.size<5){
-                mainNumbers3.add(Random.nextInt(1, 36))
+                mainNumbers3.add(Random.nextInt(1, 40))
             }
 
             //Ordenar los Numeros
